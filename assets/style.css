@@ -1,3 +1,17 @@
 h1{
     margin-left: 50px;
 }
+
+h3{
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+}
+
+.holder{
+    float: left;
+}
+
+img {
+	max-width: 300px;
+    max-height: 250px;
+}
