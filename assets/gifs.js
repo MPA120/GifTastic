@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     var topics = ["Duck", "Giraffe", "Lion","Pig", "Dog"];
 
-    function displayImg(){
+    function showImg(){
 
         $("#display-images").empty();
         var input = $(this).attr("data-name");
@@ -52,7 +52,7 @@ $(document).ready(function(){
         }
     }
 
-    function imageChangeState() {          
+    function imageChange() {          
 
         var state = $(this).attr("data-state");
         var animateImage = $(this).attr("data-animate");
@@ -82,6 +82,6 @@ $(document).ready(function(){
 
     renderButtons();
 
-    $(document).on("click", "#input", displayImg);
-    $(document).on("click", ".gif", imageChangeState);
+    $(document).on("click", "#input", showImg);
+    $(document).on("click", ".gif", imageChange);
 });
